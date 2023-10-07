@@ -1,0 +1,28 @@
+.banner{
+    background-image: url("/imagenes/reto1.jpeg");
+      /* Set a specific height */
+    height: 1080px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 1px black;
+}
+
+.footer{
+    background-color: aliceblue;
+
+}
+
+h3,h1{
+    color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

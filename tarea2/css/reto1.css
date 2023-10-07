@@ -1,0 +1,24 @@
+body{
+    font-family: 'Mooli', sans-serif;
+}
+
+/* color berde de imagen /#91E3A9 */
+
+button{
+    background-color: #91E3A9;
+    color: black;
+    border:none;
+    height: 50px;
+    width: 130px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+footer{
+    background-color: #91E3A9;
+    width: 100%;
+}
