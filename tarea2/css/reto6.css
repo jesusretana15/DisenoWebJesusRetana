@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("/imagenes/reto1.jpeg");
+    background-image: url("../imagenes/reto1.jpeg");
       /* Set a specific height */
     height: 1080px;
     width: 1920px;
