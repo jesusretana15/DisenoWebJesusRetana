@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./imagenes/favicon.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Café du Nord</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap" rel="stylesheet">
+    <script src="sweetalert2.all.min.js"></script>
+
+
+</head>
+
+
+<body>
+    <!-- <nav>
+        <div class="row fixed-top" style="background-color:#4e4132; height:50px;">
+            <div class="row fixed-top" style="background-color:#4e4132; height:50px;">
+                <div class=" col-lg-1 col-md-1">
+                    <img src="./imagenes/favicon.png" style=" height:50px;" alt="" class="img-fluid">
+
+                </div>
+                <div class="container col-lg-4 col-md-4">
+                    <p class="navname">Cafe du Nord</p>
+                </div>
+                <div class="container col-lg-7 col-md-7 mt-3 menu">
+                    <a href="#nosotros">Sobre Nosotros</a>
+                    <a href="#mapa">Ubicación</a>
+                    <a href="#proveedores">Proveedores</a>
+                    <a href="#registro">Registro</a>
+                </div>
+            </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg fondo1 fixed-top ">
+        <!-- probar con container-fluid -->
+        <div class="container">
+            <a class="navbar-brand logo" href="./index.html">
+                <!-- <h4 class="text-white">Empresa XYZ</h4> -->
+                <img style=" height:50px;" src="imagenes/favicon.png" alt="Logotipo empresarial" class="img-fluid">
+            </a>
+
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- estilos de menu: mx-auto ml-auto mr-auto-->
+                <!-- centrar opciones: text-center -->
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page"
+                            href="#mapa">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page"
+                            href="#proveedores">Proveedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page"
+                            href="#registro">Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="banner1">
+            <div class="banner1o">
+                <h1>Café du Nord</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-fluid text-center mt-3 mb-5" id="inicio">
+        <p class="mt-5 text-center texto1"> Café du Nord: santuario para aquellos
+            que buscan
+            una experiencia refinada y elevada en torno al café. </p>
+        <div class="text-ceter row mt-5" id="nosotros">
+
+            <div class=" col-lg-6 col-md-6 text-ceter textovideo">
+                <p>El Ambiente:
+                    El Café du Nord presume de un ambiente cautivador que combina perfectamente lo
+                    contemporáneo con lo acogedor. <br>La decoración es una mezcla de lo chic industrial y elementos
+                    cálidos
+                    y rústicos. <br>Paredes de ladrillo a la vista, muebles de madera reciclada e iluminación suave y
+                    ambiental crean un espacio acogedor y digno de una publicación en Instagram. <br> El aroma de granos
+                    de
+                    café recién tostados se desliza por el aire, preparando el escenario para una aventura cafetera sin
+                    igual.</p>
+            </div>
+            <div class=" col-lg-6 col-md-6 text-ceter">
+                <video autoplay muted class="container" type="video/mp4"
+                    src="./imagenes/coffee_-_15482 (720p).mp4"></video>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class=" container text-center">
+        <audio controls autoplay>
+            <source src="./imagenes/73KAY5E-lofi.mp3" type="audio/ogg">
+        </audio>
+    </section>
+
+    <section class="container pt-5" id="proveedores">
+        <div class="container text-center p-5">
+            <h3>Algunos de nuestros proveedores</h3>
+            <div class="row pt-5">
+                <div class="col-lg-4 col-md-4">
+                    <a href="https://www.cafebritt.cr/" target="_blank">
+                        <img style="height: 80px; width: 80px; border-radius: 50%;" src="./imagenes/Cafe+Britt.jpeg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <a href="https://www.cooperativadospinos.com/" target="_blank">
+                        <img style="height: 80px; width: 80px; border-radius: 50%;" src="./imagenes/dospinos.png"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <a href="https://pozuelo.com/" target="_blank">
+                        <img style="height: 80px; width: 80px; border-radius: 50%;" src="./imagenes/pozuelo.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid  mt-5 p-0 text-center" id="mapa">
+        <h3>COMO LLEGAR</h3>
+        <div> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1017.1475973227133!2d-84.0755662054808!3d9.934034545715747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e36168bc6127%3A0xf27ca236d1c7f474!2sWWPF%2B2QX%2C%20Calle%207%2C%20El%20Carmen%2C%20San%20Jos%C3%A9%20Province%2C%20San%20Jos%C3%A9%2C%2010101!5e0!3m2!1sen!2scr!4v1698562204521!5m2!1sen!2scr"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+
+    <section class="container text-center" id="">
+
+    </section>
+
+
+    <section class="container-fluid  mt-5 mb-5 p-0" id="registro">
+        <div class="container text-center form-group">
+            <h1 style="font-size:60px;">NEWSLETTER</h1>
+            <p>Registrate con tu correo para recibir noticias, sorpresas y actualizaciones</p>
+            <div class="mt-3">
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email" required>
+
+
+            </div>
+            <button class="mt-5" style="border: none; height: 50px; width: 80px;">Enviar</button>
+
+        </div>
+
+
+
+
+    </section>
+
+    <a href="https://wa.me/whatsappphonenumber" target="_blank">
+        <img src="./imagenes/whatsapp-icon-512x511-rczuooxy.png" alt="WhatsApp Button"
+            style="width: 50px; height: 50px; position:fixed; bottom: 20px; right: 20px;">
+    </a>
+
+    <footer>
+        <div style="height: 50px; background-color: #4e4132;"></div>
+    </footer>
+
+
+
+    <!-- permite la interactividad del mapeo interactivo-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+
+    <!-- https://www.image-map.net/ pagina para map imagenes  -->
+
+
+    <!-- interactividad Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- programacion -->
+
+    <!-- libreria desplegables -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+    <!-- libreria sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body{
+    font-family: 'Mukta', sans-serif;
+ 
+}
+body, html {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+
+  .navbar{
+background-color:#34251e7a;
+}
+
+a{
+    margin-right:  30px;
+  text-decoration: none;
+  color: #eceee9aa; 
+    font-weight:500;
+
+}
+ 
+a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner1 {
+    background-image: url("../imagenes/coffee-shop.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    
+
+    padding: 0;
+}
+
+.banner1 h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.073);
+    -webkit-text-stroke: 3px #eceee9aa;
+}
+
+.texto1{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.banner1o{
+    background-color: rgba(0, 0, 0, 0.6529);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textovideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textovideo p{
+    font-size: larger;
+}
